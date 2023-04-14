@@ -15,6 +15,7 @@ body{
     flex-direction: row;
     justify-content: center;
     position: fixed;
+    z-index: 4;
    /* overflow: hidden;*/
 }
 .header_container{
@@ -95,7 +96,8 @@ body{
     position: absolute;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);   
+    transform: translate(-50%,-50%);  
+    overflow: hidden; 
 }
 .sub_login h3{
     font-size: 100%;
@@ -195,7 +197,7 @@ input:focus{
     top: 65px;
     left:790px;
     display: none;
-    z-index:1;
+    z-index:2;
     box-shadow: 10px;
     border: 1px solid rgb(219, 219, 219);
 }
